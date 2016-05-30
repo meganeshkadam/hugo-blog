@@ -562,6 +562,7 @@ hr {
   font-weight: 700; }
 
 .post {
+  text-align: justify;
   margin-bottom: 60px;
   padding-bottom: 60px;
   border-bottom: 1px solid #ececec; }

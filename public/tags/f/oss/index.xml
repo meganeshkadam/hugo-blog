@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F/Oss on Ganesh Kadam&#39;s Blog</title>
+    <link>https://meganeshkadam.github.io/tags/f/oss/</link>
+    <description>Recent content in F/Oss on Ganesh Kadam&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 May 2016 07:30:12 +0530</lastBuildDate>
+    <atom:link href="https://meganeshkadam.github.io/tags/f/oss/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Book Review: i want 2 do project. tell me wat 2 do.</title>
+      <link>https://meganeshkadam.github.io/post/book-review/</link>
+      <pubDate>Sat, 28 May 2016 07:30:12 +0530</pubDate>
+      
+      <guid>https://meganeshkadam.github.io/post/book-review/</guid>
+      <description>&lt;p&gt;Since my college days, I have been very confused to focus on my interests and the domain I always wanted to work on.I started attending the meetups to keep myself updated with upcoming and new technologies used in Organizations, this helped me learn or at least get to know about the new technologies emerging very fastly, like Docker , OpenStack , OpenShift etc. I have met many people who are so eager to share their knowledge and want newbies to start with OpenSource Contributions. One such amazing experience I had, was at May Fedora Pune Meetup held on 14th May 2016 at &lt;a href=&#34;https://twitter.com/ciypro&#34;&gt;@ciypro&amp;rsquo;s&lt;/a&gt; place.&lt;/p&gt;
+
+&lt;p&gt;No other experience in this world can be so awesome than to get the book that is signed by the Author himself . Apart from discussing the pin points of the newbies, those who are finding it difficult to start with their OpenSource Contributions, we got an opportunity to ask so many questions to &lt;a href=&#34;https://twitter.com/shakthimaan&#34;&gt;@mbuf&lt;/a&gt;, he had been to Pune for Emacs meetup that was also held on the same day in Morning and so he showed up in Fedora meetup as well. Most of the attendees met him for the first time.&lt;/p&gt;
+
+&lt;p&gt;Getting back to the main part of a review on his book, I would say it is one of the must-read books for all those who want to get started contributing to OpenSource Softwares. This book really covers everything pretty well that anyone with no or some experience in F/OSS would need to know. This book clears all the essential checkpoints that one should know , like how to communicate in the OpenSource community, how to write codes, how to start on the project you want to work, how to present yourself etc. to name a few.&lt;/p&gt;
+
+&lt;p&gt;This book has answers to all the questions that a newbie would face while working on some OpenSource project and is good to keep it handy for your reference, wherever you go.&lt;/p&gt;
+
+&lt;p&gt;There are 10 chapters in this book. Starting from chapter 1. Mailing Guidelines up to the last, chapter 10. Sustenance , I never felt bored while reading it. As soon as I proceeded chapter by chapter I realized that the book is really well written and the content written in each chapter is very important for one and all. Though some of them might be very basic for some, but they are really essential.&lt;/p&gt;
+
+&lt;p&gt;Becoming the kind of person who believes these things is important for you — for helping you learn and keeping you motivated. As with all creative arts, the most effective way to become a master is to imitate the mind-set of masters — not just intellectually but emotionally as well.&lt;/p&gt;
+
+&lt;p&gt;Or, as the following modern Zen poem has it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;To follow the path:&lt;/p&gt;
+
+&lt;p&gt;look to the master,&lt;/p&gt;
+
+&lt;p&gt;follow the master,&lt;/p&gt;
+
+&lt;p&gt;walk with the master,&lt;/p&gt;
+
+&lt;p&gt;see through the master,&lt;/p&gt;
+
+&lt;p&gt;become the master.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Above lines are from one of the reference links &lt;a href=&#34;https://twitter.com/shakthimaan&#34;&gt;@mbuf&lt;/a&gt; gave in the meetup : &lt;a href=&#34;http://www.catb.org/~esr/faqs/hacker-howto.html&#34;&gt;The Cathedral and the Bazaar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are more amazing quotes in each of the chapters in this book and more motivational. So what are you waiting for ? Do order this from : &lt;a href=&#34;http://www.amazon.in/want-project-tell-wat-do/dp/9351741877&#34;&gt;Amazon&lt;/a&gt; really worth every penny!&lt;/p&gt;
+
+&lt;p&gt;You can find more about mbuf on his website : &lt;a href=&#34;http://shakthimaan.com/&#34;&gt;Shakthi Kanan&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;His irc nick is : mbuf on FreeNode at #dgplug channel.&lt;/p&gt;
+
+&lt;p&gt;Happy Hacking!!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

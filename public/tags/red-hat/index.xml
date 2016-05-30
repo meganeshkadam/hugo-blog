@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Red Hat on Ganesh Kadam&#39;s Blog</title>
+    <link>https://meganeshkadam.github.io/tags/red-hat/</link>
+    <description>Recent content in Red Hat on Ganesh Kadam&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Mar 2016 11:30:12 +0530</lastBuildDate>
+    <atom:link href="https://meganeshkadam.github.io/tags/red-hat/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>March 2016</title>
+      <link>https://meganeshkadam.github.io/post/blog3/</link>
+      <pubDate>Sun, 13 Mar 2016 11:30:12 +0530</pubDate>
+      
+      <guid>https://meganeshkadam.github.io/post/blog3/</guid>
+      <description>
+
+&lt;h1 id=&#34;week-9&#34;&gt;Week # 9&lt;/h1&gt;
+
+&lt;p&gt;Finally, few issues in my bash script are resolved. Now I need to test it on the other environments and work further on the validation part, and optimization.The script has helped me a lot in understanding OpenStack-APIs, CURL concepts, and other bash scripting skills. Also, I am attending the weekly #rdo meetings on IRC giving me a good insight of what all things are coming up in the next release of RDO.&lt;/p&gt;
+
+&lt;p&gt;Here are the links I used while writing bash script:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://developer.openstack.org/api-ref-networking-v2-ext.html#addRouterInterface&#34;&gt;OpenStack netwowking API Reference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.openstack.org/wiki/Neutron/APIv2-specification&#34;&gt;Neutron API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ask.openstack.org/&#34;&gt;Ask OpenStack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://curl.haxx.se/docs/httpscripting.html&#34;&gt;CURL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tldp.org/LDP/abs/html/&#34;&gt;Bash&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We were given an opportunity to volunteer the Python Pune meetup. It was a nice experience in February devsprint2016 #1, and a great Learning.&lt;/p&gt;
+
+&lt;p&gt;I also volunteered for the gnuNIFY 2016 last month. Attended few workshops as well. @ramky took an awsome Python workshop, he started with absolute basics, and at the end, he also discussed on Big Data, Machine Learning and few advanced topics.&lt;/p&gt;
+
+&lt;p&gt;We have started to prepare for the Red Hat certifications as well.Initially, we have started with RHCSA, then we will focus on RHCE and then on Red Hat OpenStack Certification track.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>February 2016</title>
+      <link>https://meganeshkadam.github.io/post/blog2/</link>
+      <pubDate>Wed, 10 Feb 2016 10:30:12 +0530</pubDate>
+      
+      <guid>https://meganeshkadam.github.io/post/blog2/</guid>
+      <description>
+
+&lt;h1 id=&#34;week-5-jashn&#34;&gt;Week # 5 : [Jashn]&lt;/h1&gt;
+
+&lt;p&gt;I am working on a script to automate few tasks related to my work and was facing some issues. I discussed my issues with @rshbhdas initially.@rshbhdas helped me to understand how the script should work. Later I also discussed few thing about sed and awk with @savitojs for my shell script. He is a System Admin for our project. We also had a bit of discussion about a Chef, Puppet, and Ansible. I got to know how he handles all the machines with just the scripts written in shell and python. @ramkrsna is one of a senior member of our team. He is Principal Software Engineer at Red Hat and looks after crucial part of our project. I had a short discussion with him on my script. He was quitebusy but still, later on, he had a look at my script and asked me to write the script in a different way. @ramkrsna suggested me to use Curl with Bash and API&amp;rsquo;s available for that task. He also gave me some books to read for the same.&lt;/p&gt;
+
+&lt;p&gt;We also attended the first #fedora-pune meetup.Following was the agenda for first meetup:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bugyou, filing bugs on broken cloud builds.&lt;/li&gt;
+&lt;li&gt;Writing new tests for automated atomic/cloud images (Python3)&lt;/li&gt;
+&lt;li&gt;Ansible 101 workshop (Please install Anisble on your system before coming down the workshop)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It was nice to meet @kushaldas,@siddhesh_p,@yudocca and @kumar_pravin at this meetup.Due to some issues it was held at @ciypro&amp;rsquo;s place very close to our office.In the end of this meetup venue was finalised as the same for future meetups! Fedora meetup mainly focuses on contribution to Fedora and other opensource projects.@kushaldas explained how should we start with opensource contributions and about Fedora Community.@yudocca explained us about his work in Pagure project and also about writing tests for automated atomic/cloud images using Python3.@siddhesh_p started the disscussion with C programming and Bug triaging.Finally @kumar_pravin took a short session on Ansible.He explained us about Ansible,how it works and also explained us how to write the Ansible Playbooks.Playbooks are just the scripts in Ansible in which we mention the tasks that we want to automate.It was very knowledgeble session.Second meetup was fixed in the next week.@kushaldas asked us about the experience in meetup and also asked us how it should be.Most of the attendees were students,so he got awsome inputs.All were curious about this meetup as everyone of us were getting an opportunity learn and discuss on Opensource technologies.I met few new friends in this meetup.&lt;/p&gt;
+
+&lt;p&gt;We had our annual party this weekend. @shrienk and our team were quite focused on our skit practice.We had a few hours of practice and discussions on the light plans, music, and overall props. Everyone at the office was busy shopping for the party.&lt;/p&gt;
+
+&lt;p&gt;Finally, we had a nice performance at [Jashn] - our annual party. This year we had a new logo that was designed by @shrienk and also the skit was performed with proper music and lights for the first time. It was awesome evening. Red Carpet was the theme for the party.Our Team was rocking the party!! Had a lot of fun! We enjoyed the [Jashn] night!&lt;/p&gt;
+
+&lt;h1 id=&#34;week-6&#34;&gt;# Week 6 :&lt;/h1&gt;
+
+&lt;p&gt;I have started reading the ZeroConf networking book given by @ramkrsna in last week. It is basically similar concept to APIPA in Microsoft&amp;rsquo;s domain of networking that we just had a bit in our networking class at college. The book is written by Stuart Cheshire the one who discovered the Zero Configuration networking and Daniel Steinberg.The book is very nicely written and now I have decided to completely read that book.Reading is really very important which I somehow always skipped in my college days and so I always lacked few basics that I realize now are very important.&lt;/p&gt;
+
+&lt;p&gt;RDO test day for Mitaka release was scheduled in this week. At RDO&amp;rsquo;s website in the pending list, there were many tasks to start with.I decided to start with the simple one as many people I met, have started with the same. I am working on a definitions list for the components local to RDO. @rbowen have specifically mentioned that it should be strictly local to RDO and duplications should be avoided.Since this was my first time, it was quite confusing for me to start with the contribution. I attended the meeting.Got to know how actually people work in OpenSource projects.I already had my setup of RDO ready on my laptop but was not getting the checkpoint tostart with so after the meeting, I requested @rbowen to explain me how should I start. @rbowen helped me understand the procedure for the same. He was so cool that I wasvery comfortable asking him very basic questions I had in my mind.&lt;/p&gt;
+
+&lt;p&gt;#fedora&amp;rsquo;s second Pune meetup was also held at the same venue.Agenda had few topics but as the meetup started with @siddhesh_p &amp;rsquo;s talk on C programming, it was focussed on the same for the entire duration of meetup.@siddhesh_p explained us about C compilers and interpreters, and then topic went on to registers, memory and architectural design of computer processors.We all were really keen to know the things he was discussing, he explained how the C program runs internally that was the shocking part for me.I never heard of those terms in my college and this was the amazing discussion which concluded on the decision of going back to C programming once again for all of us.&lt;/p&gt;
+
+&lt;p&gt;I have also started pushing my changes done in shell script on git and also on gerrit for code review.&lt;/p&gt;
+
+&lt;h1 id=&#34;python3-101&#34;&gt;# Python3 101:&lt;/h1&gt;
+
+&lt;p&gt;Python3 101 meetup was organized by #python-pune group that is hosted by @ciypro, @yudocca, @kushaldas and @kumar_pravin. This meetup was mainly focused for the beginners in Python and for the ones who already know Python2.X but wanted to learn differences between Python2 and Python3.@kushaldas started with absolute basics in Python. He covered variables, lists, dictionaries, file handling, list comprehensions and generators and most of the concepts in python initially.&lt;/p&gt;
+
+&lt;p&gt;Later we discussed few basic differences in Python3 and Python2, for eg. raw_input is now input in Python3.X, in python2 generator has a method next in pyhthon3 generator uses next function call i.e next(x) instead of a method etc. Later on,we did some hands on with Python3, @yudocca gave us some tasks like writing a ls command program in Python using OS modules, fizz buzz program, getting username and password using Python etc. It was an awesome experience for two of my friends who never did anything on Python and also for me to understand basics of it. Next month we will be having Python DevSprint for one day in which we will be discussing on how to contribute in OpenSourcePython projects and do some coding in Python.&lt;/p&gt;
+
+&lt;h1 id=&#34;week-7&#34;&gt;# Week 7:&lt;/h1&gt;
+
+&lt;p&gt;I started working on some of the live issues,peer-reviewing with the help of &lt;a href=&#34;https://twitter.com/NeetiDahiya&#34;&gt;@NeetiDahiya&lt;/a&gt;.We had one more intern added to our interns family and yet another box of Doughnuts!. &lt;a href=&#34;https://twitter.com/ciypro&#34;&gt;@ciypro&lt;/a&gt; had already asked us to share whatever sessions we had, with the new joinees.@shrienk has asked us to make us new joinees checklist so that it is self-explanatory enough to new joinees to do intial tasks related to our project and avoid confusions.&lt;/p&gt;
+
+&lt;p&gt;We are planning to have intern&amp;rsquo;s morning and evening sessions in which everyone of us will take some topics and we will discuss on them as it will help us share our knowledge,help grow our understanding of concepts and learn new things from eachother.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Red Hat - The Journey Begins</title>
+      <link>https://meganeshkadam.github.io/post/blog1/</link>
+      <pubDate>Wed, 13 Jan 2016 13:00:12 +0530</pubDate>
+      
+      <guid>https://meganeshkadam.github.io/post/blog1/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone !!&lt;/p&gt;
+
+&lt;p&gt;Getting an internship at Red Hat was like my dream come true! My
+parents, at first, thought that I am joking and they never expected that
+I would get this internship, but later on when I showed them my
+confirmation mail they were happy. Things changed. Mom and Dad, who used
+to shout at me every time were now relaxed and then they started
+explaining about other responsibilities at my place with a hope that I
+would be capable of handling them some day! ;)&lt;/p&gt;
+
+&lt;p&gt;It was December 14th, the day when I entered Red Hat, and my journey
+with Red Hat begins! :)&lt;/p&gt;
+
+&lt;h1 id=&#34;week-1-kickstart-of-internship&#34;&gt;# Week 1: Kickstart of Internship !&lt;/h1&gt;
+
+&lt;p&gt;The first week at Red Hat was very cool! On the very first day,
+immediately after our onboarding we started off with setting up our own
+machines with Fedora 23. @shrienk, our Team Lead helped us with this
+task. Later on, we were introduced to Devang, our Manager and then to
+our Mentors. I was very excited to know about my new role and
+responsibilities I would have upon me. @NeetiDahiya is my mentor for my
+term of internship.She explained us about the workflow of our project
+and also took a session on the internal tools we use at Red Hat.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile we had some sessions on Email-Etiquette, IRC - ethics and few
+others related to our work.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https:/twitter.com/ciypro&#34;&gt;@ciypro&amp;rsquo;s&lt;/a&gt; sessions - we call them Gyan sessions :D made me realize how
+new technologies are emerging and how in the world of open source people
+come together to make robust software that help others and the benefits
+of sharing knowledge. Part of it I had known by attending one of his
+meetups and at Fudcon 2015, that was held in Pune after four years, in
+June 2015!&lt;/p&gt;
+
+&lt;p&gt;It feels really awesome to be around with geeks and learn lots of things
+that help you in your career. After all, I feel like I am a
+geek-under-progress , because I have decided one thing in mind very
+clearly i.e no matter whatever happens after my internship program, I
+will take away the knowledge that I will gain in this term of 6 months
+and continue the legacy of Open Source in my life by contributing to it
+and sharing knowledge with others !&lt;/p&gt;
+
+&lt;p&gt;It was time to get introduced to our entire team. We were introduced and
+@shrienk explained us about our team and its workflow. Thanks to
+@shrienk, we really liked the way of introduction to our team and
+ofcourse, Donuts were nice as well! :D&lt;/p&gt;
+
+&lt;h1 id=&#34;week-2-love-the-open-source-way&#34;&gt;# Week 2: Love the Open Source Way !&lt;/h1&gt;
+
+&lt;p&gt;So, week two started up with new lessons and some work related to our
+project. I have heard in few meetups at Red Hat, You get to learn new
+things at Red Hat.. every day! and I have already started experiencing
+this since my day one at Red Hat.&lt;/p&gt;
+
+&lt;p&gt;In this week,@shrienk asked us to attend the Docathon event organised by
+one of our team at Red Hat. It was nice experience, got to know few
+people who are responsible for Documentation at Red Hat. I also met some
+of my college seniors in this event. Few sessions like Story Telling and
+Agile, Email communication, Open Source Culture, Minimalism etc helped
+me add new lessons to my knowledge base that would also help me at my
+work.&lt;/p&gt;
+
+&lt;p&gt;I also attended a talk on &amp;ldquo;OOO&amp;rdquo; that @NeetiDahiya asked me to attend so
+that I can understand how OpenStack is deployed on production
+environments. Till now I only knew about DevStack and PackStack.This
+talk on OOO, also called as OpenStack on OpenStack or Triple O helped me
+know about the actual method of deploying OpenStack. It is OSP Director
+that uses some OpenStack environment to deploy on bare metal systems for
+production enviornments. This talk covered all the essentials of OOO
+that are used to provision and manage resources associated with
+OpenStack, and its working, what is under cloud and over cloud etc. Then
+later on we started with understanding the Python project structure, Git
+Basics followed by some hands on. Hushhh&amp;hellip; there are so many things to
+learn and a long way to go&amp;hellip;. I never ever thought of becoming a part
+of such an amazing organization and an Open Source community !&lt;/p&gt;
+
+&lt;p&gt;I am loving the Open Source way !!&lt;/p&gt;
+
+&lt;h1 id=&#34;week-3-keep-calm-and-do-your-kaam&#34;&gt;# Week 3: Keep Calm and do your Kaam !!&lt;/h1&gt;
+
+&lt;p&gt;Ok, by this time in the third week we were slowly getting acquainted
+with our work and responsibilities. We had one more member in our
+interns family. More two interns were yet to come on board with us. I
+hope we all do our best in coming days and make substantial value
+addition to our team and our Organization.&lt;/p&gt;
+
+&lt;p&gt;We were asked to write the blog during this week and were suggested to
+use Pelican. I had never written a single blog before and this was
+intended for a reason , so that it would help us track our day to day
+activities, and would be helpful in many other ways like, learning
+Pelican, designing your own templates, a bit of Python, HTML, CSS,
+bootstrap, jinja2, etc. and would also help us improve our written
+communication skills. Initially, I started with reading Pelican docs but
+later I decided to do a hands on. It&amp;rsquo;s really very awesome. Pelican is
+just a static website generator that uses Python and ReStructuredText or
+MarkDown to upload your content that is automatically converted to html
+in output directory. In one of the session, @rshbhdas explained us about
+Jenkins CI/CD workflow related to our project. It was totally new
+concept to understand just like we use Jira and Bugzilla as well.Few
+tools I had just heard about them but these are the ones with which I
+had to get well versed with. @ciypro explained us about Packaging. How
+to start with it and how it&amp;rsquo;s actually done in the community-based
+projects.&lt;/p&gt;
+
+&lt;p&gt;It was last week of the year and we are enjoying our phase of learning.
+I did few mistakes, and I keep on doing them but these are the ones who
+teach me and help me get better at my work.&lt;/p&gt;
+
+&lt;p&gt;We had a Team Dinner that week and it was really a very nice experience.&lt;/p&gt;
+
+&lt;p&gt;As usual on 31st December, right at 12:00 am, me and my friends were at
+Bappa&amp;rsquo;s place ( Shrimant Dagdusheth Halwai Temple,Pune ) to get his
+blessings for the coming year - 2o16 ! Great start to the New Year !!!
+Cheers !! : )&lt;/p&gt;
+
+&lt;h1 id=&#34;week-4-tick-tick-tick-time-is-running&#34;&gt;# Week 4 : Tick..tick&amp;hellip;Tick&amp;hellip;.Time is running&amp;hellip;!!&lt;/h1&gt;
+
+&lt;p&gt;Time flies when you are working&amp;hellip;. seems to be true! :D We had
+completed our 1st month at Red Hat and there are lots of things we need
+to learn. New Year and new resolutions &amp;hellip;. I think it is time to get
+serious about career, so I had set my personal Goals and I am trying my
+best to achieve them. Sometimes I am finding really very difficult to
+work on some tasks but my mentors are really very understanding. They
+are helping me at my every blocker I am facing and so it motivates me to
+work as well. After all, I am working with all the geeks and I am
+willing to be like them some day !! I have started working on RDO:
+Deployed it on my Laptop and preparing for Mitaka test day !! :) I will
+also start contributing to RDO and then later on start understanding
+other upstream projects as well.&lt;/p&gt;
+
+&lt;p&gt;Another round of donuts for our new member in Interns family was ready
+!!! @shrienk is his mentor. I have also participated in @shrienk&amp;rsquo;s skit
+that we will be performing on our Annual Party this weekend. We will be
+attending Fedora meetup happening this week and also Python-Pune meet up
+in next week.&lt;/p&gt;
+
+&lt;p&gt;Thanks to @NeetiDahiya, my mentor and all other mentors,@shrienk and one
+of my college seniors @SuprithG, who is also working in the same team as
+I do !&lt;/p&gt;
+
+&lt;p&gt;This is my first blog and I have enjoyed every bit of writing it . Hope
+so I would improve on it in my upcoming posts&amp;hellip;. :D&lt;/p&gt;
+
+&lt;p&gt;May the force be with all of us !!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

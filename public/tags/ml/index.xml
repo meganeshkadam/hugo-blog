@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ml on Ganesh Kadam&#39;s Blog</title>
+    <link>https://meganeshkadam.github.io/tags/ml/</link>
+    <description>Recent content in Ml on Ganesh Kadam&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 May 2016 04:30:12 +0530</lastBuildDate>
+    <atom:link href="https://meganeshkadam.github.io/tags/ml/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Data Analysis using Python Pandas</title>
+      <link>https://meganeshkadam.github.io/post/python-may-2016/</link>
+      <pubDate>Sat, 28 May 2016 04:30:12 +0530</pubDate>
+      
+      <guid>https://meganeshkadam.github.io/post/python-may-2016/</guid>
+      <description>
+
+&lt;p&gt;Python Pune meetup was held at Amazatic solutions, on 28th May 2016. This meetup was focused on Data Analysis using Python Pandas for Data Science Series.Below are some of the highlights of this workshop which were covered using Case Study :&lt;/p&gt;
+
+&lt;p&gt;• Numpy basics&lt;/p&gt;
+
+&lt;p&gt;• Pandas Data Structures and basics&lt;/p&gt;
+
+&lt;p&gt;• Data Loading&lt;/p&gt;
+
+&lt;p&gt;• Data Wrangling (Clean, Transform, Merge)&lt;/p&gt;
+
+&lt;p&gt;• Data Aggregation and grouping operations&lt;/p&gt;
+
+&lt;p&gt;• Exploratory Data Analysis and Descriptive Statistics&lt;/p&gt;
+
+&lt;p&gt;• Plotting and Visualization&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/sudarshan1989&#34;&gt;@sudarshan&lt;/a&gt; was the speaker for this workshop. He is a Data Engineer at NEC Corporation of America and also a regular member of Python Pune Meetup and Data Scientist Meetup of Pune. I missed the first session on Data Science in last month which mainly focused on the basics of Data Science, Machine Learing and Algorithms and related concepts. Thanks to &lt;a href=&#34;https://twitter.com/sudarshan1989&#34;&gt;@sudarshan&lt;/a&gt; he covered few of the basic concepts in this meetup again.&lt;/p&gt;
+
+&lt;p&gt;Datascience is full framework.Machine learning deals with building models.Two major languages used in Datascience are : # R and Python
+Apart from some syntactical differences in R and Python, both the languages offer the datastructure most oftenly used in Datacience i.e
+Dataframe.&lt;/p&gt;
+
+&lt;p&gt;In a typical Datascience workflow, most of the time of Data Scientists is consumed to get the data,analyze the data,sepeartion of data,and cleaning of data, that means almost 70% of the total work in intial phase. Later comes the actual business logic and model building.&lt;a href=&#34;https://twitter.com/sudarshan1989&#34;&gt;@sudarshan&lt;/a&gt; cleared this understanding about the Data Science.Most of the people wind up enrolling in to some classes and generally don&amp;rsquo;t understand the actual concepts, there is really a need of efforts if you want to be a Data Scientist.&lt;/p&gt;
+
+&lt;p&gt;We faced few technical issues during the meetup, in the mean time &lt;a href=&#34;https://twitter.com/sudarshan/1989&#34;&gt;@sudarshan&lt;/a&gt; started with the basics of numpy. The learning curve to be a good Data Scientist, includes the understanding of python libraries:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;numpy&lt;/li&gt;
+&lt;li&gt;python-pandas&lt;/li&gt;
+&lt;li&gt;matplotlib&lt;/li&gt;
+&lt;li&gt;scikitlearn&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Following are few comparisions between numpy and python pandas:&lt;/p&gt;
+
+&lt;h3 id=&#34;numpy&#34;&gt;numpy:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;built for fast array processing, vector operations&lt;/li&gt;
+&lt;li&gt;15 times faster then list&lt;/li&gt;
+&lt;li&gt;made for scientific calculations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;eg :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import numpy as np
+imprt pandas as pd
+
+ni = np.array(list)
+ type (n1) gives o/p :numpy.ndarray
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;numpy function arrange:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;7np.arrange(10)  # bydefault int
+for float use : np.arrange(10, dtype=np.64)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;python-pandas&#34;&gt;python pandas :&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Datastructure series - 1d numpy array stores data. its like column in dataframe context&lt;/li&gt;
+&lt;li&gt;series also has the index and the value&lt;/li&gt;
+&lt;li&gt;To access values in series :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;ser1.values
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To acess the value in index :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;ser1.index
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We can customize the indexes, and can also have duplicates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;ser2=[1,211,2,1,2,1,2], index=[a,d,d,s,a,s]
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We can change the values in series using index&lt;/li&gt;
+&lt;li&gt;Dataframe is collection of series like excel sheet&lt;/li&gt;
+&lt;li&gt;More the memory More data can be analysed in python pandas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To learn more about python pandas, here is the beautiful website for beginners which has the cook book by &lt;a href=&#34;https://twitter.com/b0rk&#34;&gt;Julia Evans&lt;/a&gt; and lots of tutorials as well: &lt;a href=&#34;http://pandas.pydata.org/pandas-docs/version/0.15.2/tutorials.html&#34;&gt;Python Pandas&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We also discussed about the Matplotlib, in one of the case studies.This case study was taken from the website &lt;a href=&#34;https://www.kaggle.com/&#34;&gt;Kaggle&lt;/a&gt;,a website focused on learning Data Science and also has hackathons for the same.Case Study was about the Titanic-Machine Learning from Disaster.&lt;a href=&#34;https://twitter.com/sudarshan1989&#34;&gt;@sudarshan&lt;/a&gt; explained python pandas can be used effectively to extract the data from the available resources, and build the usefull models.Matplotlib is the library used to mainly produce the charts related to the data. You can generate plots, histograms, power spectra, bar charts, errorcharts, scatterplots, etc, with just a few lines of code.&lt;/p&gt;
+
+&lt;p&gt;Finally we disscusssed about the next meetup in which we will be conducting a Hackathon,in continuation with this meetup and try to do some hands on wiht Python Pandas.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;https://twitter.com/ciypro&#34;&gt;@ciypro&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/sudarshan1989&#34;&gt;@sudarshan&lt;/a&gt; for giving us the opportunity to learn and volunteer for this meetup.&lt;/p&gt;
+
+&lt;p&gt;Here are few resources from &lt;a href=&#34;https://twitter.com/sudarshan1989&#34;&gt;@sudarshan&lt;/a&gt; that we used for this meetup:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sudarshan1413/python_pandas_meetup_2016&#34;&gt;Python Pune Data Analysis with Pandas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cin.ufpe.br/~embat/Python%20for%20Data%20Analysis.pdf&#34;&gt;Python for Data Analysis Book&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
