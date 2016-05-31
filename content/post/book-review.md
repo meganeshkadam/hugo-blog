@@ -22,14 +22,14 @@ contributions. One such amazing experience I had, was at May Fedora
 Pune Meetup held on 14th May 2016 at
 [@ciypro's](https://twitter.com/ciypro) place.
 
-No other experience in this world can be so awesome than to get the
-book signed by the author himself. Apart from discussing the pain
+No other experience in this world can be so awesome than to get my copy
+of book signed by the author himself. Apart from discussing the pain
 points for newbies, those who are finding it difficult to start with
 their Open Source contributions, we got an opportunity to ask so many
 questions to [@mbuf](https://twitter.com/shakthimaan). He had come to
-Pune for an Emacs meetup that was also held the previous day, and
-showed up the following day for the Fedora meetup. Most of the
-attendees met him for the first time.
+Pune for an Emacs meetup that was held the previous day, and showed up
+the following day for the Fedora meetup. Most of the attendees met him
+for the first time.
 
 Getting back to the review of his book, I would say it is one of the
 must-read books for all those who want to get started contributing to
@@ -59,18 +59,20 @@ intellectually but emotionally as well.
 
 Or, as the following modern Zen poem has it:
 
-> To follow the path:
->
-> look to the master,
->
-> follow the master,
->
-> walk with the master,
->
-> see through the master,
->
-> become the master.
+```
+To follow the path,
 
+look to the master,
+
+follow the master,
+
+walk with the master,
+
+see through the master,
+
+become the master.
+
+```
 Above lines are from one of the reference links
 [@mbuf](https://twitter.com/shakthimaan) gave in the meetup :
 [The Cathedral and the Bazaar](http://www.catb.org/~esr/faqs/hacker-howto.html)
@@ -81,7 +83,7 @@ motivational. So what are you waiting for? Do order this from :
 really worth every penny!
 
 You can find more about "mbuf" on his website :
-[Shakthi Kanan](http://shakthimaan.com/)
+[Shakthi Kannan](http://shakthimaan.com/)
 
 His IRC nick is mbuf on Freenode \#dgplug channel.
 

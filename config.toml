@@ -7,6 +7,13 @@ paginate = 5
 disqusShortname = "meganeshkadam"
 theme = "hugo-minimalist-theme"
 
+[[menu.main]]
+    name = "about"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "about"
+    url = "/about/"
+
 [params]
     site_author = "Ganesh Kadam"
     site_description = "The awesome blog of Ganesh Kadam."
