@@ -44,98 +44,66 @@
         <article class="post">
             <a class="btn home" href="https://meganeshkadam.github.io/" title="Back to home">&laquo; Back to home</a>
             
-<h1><a href="https://meganeshkadam.github.io/post/gerrit/" title="Gerrit Isue">Gerrit Isue</a></h1>
+<h1><a href="https://meganeshkadam.github.io/post/python-june-2016/" title="Python Pune June 2016 meetup">Python Pune June 2016 meetup</a></h1>
 
-<footer class="post-info">Posted on <span class="post-meta"><time datetime="2016.04.26">2016.04.26</time>
+<footer class="post-info">Posted on <span class="post-meta"><time datetime="2016.06.26">2016.06.26</time>
 
     &middot; Tagged in
         
-        <a href="https://meganeshkadam.github.io/tags/git">git</a>, 
+        <a href="https://meganeshkadam.github.io/tags/python-pune">python-pune</a>, 
         
-        <a href="https://meganeshkadam.github.io/tags/gerrit">gerrit</a>
+        <a href="https://meganeshkadam.github.io/tags/data-science">data science</a>
         
     
 
 </span>
 </footer>
 
-            <p>I was working on shell a script. Now that it was complete I need to send that script for review.So I started to work on this. Unfortunately I got the following error which took me almost took a day to resolve on my side. I decided not to ask my mentors until and unless I am not able to rsolve this issue. This has been common issue amongst all of us interns!</p>
+            
 
-<pre><code>[gkadam@dhcp201-114 cert-openstack-scripts]$ git review -R
-Could not connect to gerrit.
-Enter your gerrit username: gkadam@redhat.com
-Trying again with ssh://gkadam@redhat.com@code.engineering.redhat.com:22/cert-openstack-scripts
-&lt;traceback object at 0x7fa7a448cb00&gt;
-We don't know where your gerrit is. Please manually create a remote
-named &quot;gerrit&quot; and try again.
-Could not connect to gerrit at ssh://gkadam@redhat.com@code.engineering.redhat.com:22/cert-openstack-acripts
-Traceback (most recent call last):
-File &quot;/usr/bin/git-review&quot;, line 11, in &lt;module&gt;
-sys.exit(main())
-File &quot;/usr/lib/python2.7/site-packages/git_review/cmd.py&quot;, line 1534, in main
-sys.exit(e.EXIT_CODE)
-AttributeError: 'GitReviewException' object has no attribute 'EXIT_CODE'
-</code></pre>
+<h1 id="python-pune-meetup-june-2016-data-dojo">Python Pune Meetup June 2016 : Data Dojo</h1>
 
-<p>After going through lots of google serarches I realized that, the things that were going wrong are already mentioned in the error code that I was getting. Before this I made a very silly mistake of deleting the existing file in that directory from which I have to send the file for review. So just after knowing this issue, I copied the new script in to the same directory again. Then I renamed to it&rsquo;s earlier name and performed following steps :</p>
+<p>Python Pune Meetup organized the Data Dojo on 25th June 2016 at Red Hat, Pune. This time its was a kind of hackathon for exploring the Python Pandas,NumPy and Matplotlib that we learned in the last seroes of Data Science meetup.</p>
+
+<p>Here are the data sets that were used for Data Dojo:</p>
 
 <ol>
-<li>Cloned the repository to new location :</li>
+<li><a href="http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data">Adult Data: Male/Female names</a></li>
+<li><a href="https://data.gov.in/resources/indian-railways-time-table-trains-available-reservation-03082015/download">Train Time Table</a></li>
 </ol>
 
-<!-- -->
+<p>Initially <a href="https://twitter.com/ciypro">@ciypro</a> explained what are the pre-requisites for Data Dojo, and what actually it means. Later <a href="https://twitter.com/sudarshan1989">@sudarshan</a> gave us two data sets to explore. Attendees have to create a group of 3 each and choose any one of them or the one of their own choice and upload it to their repo on Git Hub and share it on meetup page.</p>
 
-<pre><code>[gkadam@dhcp201-114 ~]$ git clone ssh://gkadam@code.engineering.redhat.com:22/cert-openstack-scripts
-Cloning into 'cert-openstack-scripts'...
-Checking connectivity... done.
-warning: remote HEAD refers to nonexistent ref, unable to checkout.
-</code></pre>
+<p>Around 25 Pythonistas turned up for this hackathon as expected, but the one&rsquo;s who came tried their hands on with Python Pandas. Most of them were intermediates in Python, though every one in this meetup did explored the data sets. Good thing about this meetup was that, most of the attendees knew Pyhton, and just had never heard about Pandas,Numpy and matplotlib. Data Dojo gave them an opportunity to learn these libraries in Python, and take away for them was, Pandas and introductory Data Science skills!</p>
 
-<ol>
-<li>Added the remote repository as we can see in the above error!</li>
-</ol>
+<p>We finally asked every one to present their work to all, and the ones who did got some goodies as well!
+Here are links to the work done by some attendees :</p>
 
-<!-- -->
+<ul>
+<li><p><a href="https://github.com/tanayseven/python_data_dojo">Tanay Prabhudesai</a></p></li>
 
-<pre><code>[gkadam@dhcp201-114 cert-openstack-scripts]$ git remote add gerrit ssh://gkadam@code.engineering.redhat.com:22/cert-openstack-scripts
-</code></pre>
+<li><p><a href="https://github.com/ketulgupta1995/Python-Data-Dojo">Ketul Gupta</a></p></li>
 
-<ol>
-<li>Then did a git review after adding the script and commiting it in that dierctory :</li>
-</ol>
+<li><p><a href="https://github.com/vksgaikwad3/pypunedojo">Vikas Gaikwad</a></p></li>
 
-<!-- -->
+<li><p><a href="https://github.com/chaiku/PyPuneDataDojo2016">Chaitanya Kukde</a></p></li>
+</ul>
 
-<pre><code>[gkadam@dhcp201-114 cert-openstack-scripts]$ git review -R
-Your change was committed before the commit hook was installed.
-Amending the commit to add a gerrit change id.
-remote: Processing changes: new: 1, refs: 1, done.
-remote: (W) 9dedc09: commit subject &gt;65 characters; use shorter first paragraph
-remote: (W) 9dedc09: too many commit message lines longer than 70 characters; manually wrap lines
-remote:
-remote: New Changes:
-remote:https://code.engineering.redhat.com/gerrit/73014 Add user validation, and create functions : create_member,create_network and remote:
-To ssh://gkadam@code.engineering.redhat.com:22/cert-openstack-scripts
-* [new branch]      HEAD -&gt; refs/publish/master
-</code></pre>
-
-<p>This was the workaround for my problem that I was facing.</p>
-
-<p>Here is the link to the similar issue on git : <a href="https://help.github.com/articles/error-remote-head-refers-to-nonexistent-ref-unable-to-checkout/">Git remote HEAD Issue</a></p>
+<p>In our upcoming Python Pune meetup, we will be learning about the scikit-learn basics.Thanks <a href="https://twitter.com/ciypro">@ciypro</a> and <a href="https://twitter.com/sudarshan1989">@sudarshan</a> for giving us this opportunity to volunteer for awesome meetup.</p>
 
             <ul class="share-buttons">
     <li>Share this article:</li>
     <li>
-        <a class="icon-facebook-squared" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmeganeshkadam.github.io%2fpost%2fgerrit%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"></a>
+        <a class="icon-facebook-squared" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmeganeshkadam.github.io%2fpost%2fpython-june-2016%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"></a>
     </li>
     <li>
-        <a class="icon-twitter" href="https://twitter.com/share?text=Gerrit%20Isue&amp;url=https%3a%2f%2fmeganeshkadam.github.io%2fpost%2fgerrit%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Tweet this article"></a>
+        <a class="icon-twitter" href="https://twitter.com/share?text=Python%20Pune%20June%202016%20meetup&amp;url=https%3a%2f%2fmeganeshkadam.github.io%2fpost%2fpython-june-2016%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Tweet this article"></a>
     </li>
     <li>
-        <a class="icon-gplus" href="https://plus.google.com/share?url=https%3a%2f%2fmeganeshkadam.github.io%2fpost%2fgerrit%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google&#43;"></a>
+        <a class="icon-gplus" href="https://plus.google.com/share?url=https%3a%2f%2fmeganeshkadam.github.io%2fpost%2fpython-june-2016%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google&#43;"></a>
     </li>
     <li>
-        <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fmeganeshkadam.github.io%2fpost%2fgerrit%2f&title=Gerrit%20Isue" onclick="window.open(this.href, 'linkedin-share', 'width=600,height=494');return false;" title="Share on Linkedin"></a>
+        <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fmeganeshkadam.github.io%2fpost%2fpython-june-2016%2f&title=Python%20Pune%20June%202016%20meetup" onclick="window.open(this.href, 'linkedin-share', 'width=600,height=494');return false;" title="Share on Linkedin"></a>
     </li>
 </ul>
 
@@ -145,9 +113,9 @@ To ssh://gkadam@code.engineering.redhat.com:22/cert-openstack-scripts
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'meganeshkadam';
-    var disqus_identifier = 'https:\/\/meganeshkadam.github.io\/post\/gerrit\/';
-    var disqus_title = 'Gerrit Isue';
-    var disqus_url = 'https:\/\/meganeshkadam.github.io\/post\/gerrit\/';
+    var disqus_identifier = 'https:\/\/meganeshkadam.github.io\/post\/python-june-2016\/';
+    var disqus_title = 'Python Pune June 2016 meetup';
+    var disqus_url = 'https:\/\/meganeshkadam.github.io\/post\/python-june-2016\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

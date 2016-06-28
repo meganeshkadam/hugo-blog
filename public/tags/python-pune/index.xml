@@ -6,8 +6,48 @@
     <description>Recent content in Python Pune on Ganesh Kadam&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 May 2016 04:30:12 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jun 2016 11:00:12 +0530</lastBuildDate>
     <atom:link href="https://meganeshkadam.github.io/tags/python-pune/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Python Pune June 2016 meetup</title>
+      <link>https://meganeshkadam.github.io/post/python-june-2016/</link>
+      <pubDate>Sun, 26 Jun 2016 11:00:12 +0530</pubDate>
+      
+      <guid>https://meganeshkadam.github.io/post/python-june-2016/</guid>
+      <description>
+
+&lt;h1 id=&#34;python-pune-meetup-june-2016-data-dojo&#34;&gt;Python Pune Meetup June 2016 : Data Dojo&lt;/h1&gt;
+
+&lt;p&gt;Python Pune Meetup organized the Data Dojo on 25th June 2016 at Red Hat, Pune. This time its was a kind of hackathon for exploring the Python Pandas,NumPy and Matplotlib that we learned in the last seroes of Data Science meetup.&lt;/p&gt;
+
+&lt;p&gt;Here are the data sets that were used for Data Dojo:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data&#34;&gt;Adult Data: Male/Female names&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.gov.in/resources/indian-railways-time-table-trains-available-reservation-03082015/download&#34;&gt;Train Time Table&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Initially &lt;a href=&#34;https://twitter.com/ciypro&#34;&gt;@ciypro&lt;/a&gt; explained what are the pre-requisites for Data Dojo, and what actually it means. Later &lt;a href=&#34;https://twitter.com/sudarshan1989&#34;&gt;@sudarshan&lt;/a&gt; gave us two data sets to explore. Attendees have to create a group of 3 each and choose any one of them or the one of their own choice and upload it to their repo on Git Hub and share it on meetup page.&lt;/p&gt;
+
+&lt;p&gt;Around 25 Pythonistas turned up for this hackathon as expected, but the one&amp;rsquo;s who came tried their hands on with Python Pandas. Most of them were intermediates in Python, though every one in this meetup did explored the data sets. Good thing about this meetup was that, most of the attendees knew Pyhton, and just had never heard about Pandas,Numpy and matplotlib. Data Dojo gave them an opportunity to learn these libraries in Python, and take away for them was, Pandas and introductory Data Science skills!&lt;/p&gt;
+
+&lt;p&gt;We finally asked every one to present their work to all, and the ones who did got some goodies as well!
+Here are links to the work done by some attendees :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/tanayseven/python_data_dojo&#34;&gt;Tanay Prabhudesai&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/ketulgupta1995/Python-Data-Dojo&#34;&gt;Ketul Gupta&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/vksgaikwad3/pypunedojo&#34;&gt;Vikas Gaikwad&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/chaiku/PyPuneDataDojo2016&#34;&gt;Chaitanya Kukde&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In our upcoming Python Pune meetup, we will be learning about the scikit-learn basics.Thanks &lt;a href=&#34;https://twitter.com/ciypro&#34;&gt;@ciypro&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/sudarshan1989&#34;&gt;@sudarshan&lt;/a&gt; for giving us this opportunity to volunteer for awesome meetup.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Data Analysis using Python Pandas</title>
