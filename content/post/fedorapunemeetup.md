@@ -11,8 +11,6 @@ tags = ["Fedora"]
 
 +++
 
-# Fedora 24 Release Party, Pune 2016
-
 The July [Fedora Pune](https://fedoraproject.org/wiki/Release_Party_F24_Pune#List_of_attendees) meeetup was held on 9th July 2016 which mainly focused on the discussion of new Fedora 24 features, learn about how to contribute to free and open source software and meet other Pune Fedora users. We also had our regular technical discussions, during this event.
 
 **Agenda**
