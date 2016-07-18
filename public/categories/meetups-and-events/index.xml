@@ -6,8 +6,47 @@
     <description>Recent content in Meetups And Events on Ganesh Kadam&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jun 2016 11:00:12 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 11 Jul 2016 04:00:12 +0530</lastBuildDate>
     <atom:link href="https://meganeshkadam.github.io/categories/meetups-and-events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fedora 24 Release Party, July 2016</title>
+      <link>https://meganeshkadam.github.io/post/fedorapunemeetup/</link>
+      <pubDate>Mon, 11 Jul 2016 04:00:12 +0530</pubDate>
+      
+      <guid>https://meganeshkadam.github.io/post/fedorapunemeetup/</guid>
+      <description>&lt;p&gt;The July &lt;a href=&#34;https://fedoraproject.org/wiki/Release_Party_F24_Pune#List_of_attendees&#34;&gt;Fedora Pune&lt;/a&gt; meeetup was held on 9th July 2016 which mainly focused on the discussion of new Fedora 24 features, learn about how to contribute to free and open source software and meet other Pune Fedora users. We also had our regular technical discussions, during this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Agenda&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Presentation about Fedora 24&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Plan the future meetups in Pune&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The event started with the introductions and we had someone very senior from Fedora community this time, &lt;a href=&#34;https://twitter.com/paraagan&#34;&gt;Parag Nemade&lt;/a&gt; who discussed about his journey with Fedora, his contributions and some good points
+on how one should get started with the Fedora Contribution.&lt;/p&gt;
+
+&lt;p&gt;Followed by the introduction round,  &lt;a href=&#34;https://twitter.com/ciypro&#34;&gt;Chandan Kumar&lt;/a&gt; started with his presentation about the      &lt;a href=&#34;https://getfedora.org/workstation/&#34;&gt;Fedora 24&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here is the link to  &lt;a href=&#34;https://twitter.com/ciypro&#34;&gt;Chandan Kumar&amp;rsquo;s&lt;/a&gt;  slides:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;bit.ly/f24ppt&#34;&gt;Fedora 24 Rlease party&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/kumar_pravin&#34;&gt;Pravin Kumar&lt;/a&gt; discussed about &lt;a href=&#34;http://flatpak.org/&#34;&gt;Flatpak&lt;/a&gt; , the Linux application sandboxing and distribution framework.&lt;/p&gt;
+
+&lt;p&gt;If you want to contribute to Fedora here is the link to get started:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://whatcanidoforfedora.org/en/&#34;&gt;What Can I Do For Fedora?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In the technical discussion, we discussed on few OpenSource Project ideas.We have also started working on one such
+porject, that is porting the existing glibc Documentation to Sphinx.All the attendees have volunteered for this and
+we are sure, this project will be accomplished in our decided timeline.&lt;/p&gt;
+
+&lt;p&gt;Thanks &lt;a href=&#34;https://twitter.com/kushaldas&#34;&gt;Kushaldas&lt;/a&gt; for arranging this meetup, we really enjoyed it and it was very informative.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Python Pune June 2016 meetup</title>
