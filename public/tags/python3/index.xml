@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python3 on Ganesh Kadam&#39;s Blog</title>
+    <link>https://meganeshkadam.github.io/tags/python3/</link>
+    <description>Recent content in Python3 on Ganesh Kadam&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Aug 2016 11:20:12 +0530</lastBuildDate>
+    <atom:link href="https://meganeshkadam.github.io/tags/python3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Python Pune July 2016 Meetup</title>
+      <link>https://meganeshkadam.github.io/post/python-july-2016/</link>
+      <pubDate>Mon, 01 Aug 2016 11:20:12 +0530</pubDate>
+      
+      <guid>https://meganeshkadam.github.io/post/python-july-2016/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.meetup.com/PythonPune/events/232609681/&#34;&gt;Python Pune July 2016 Monthly Meetup&lt;/a&gt; was held on 30th July 2016,
+Saturday at &lt;a href=&#34;https://www.redhat.com/en&#34;&gt;Red Hat Pune&lt;/a&gt; office.
+This meetup was mainly focused on sharing the knowledge of Python with each other.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Agenda&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;How do I automate my boring stuff using Python?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Writing unit tests for any Python Script&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Regular Expressions in Python&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Static v/s Dynamically typed languages&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meganeshkadam.github.io/img/julymeet16/chandan.jpg&#34; alt=&#34;Chandan discussing with attendees&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Session started with as usual introductions of the attendees.&lt;a href=&#34;https://twitter.com/ciypro.com&#34;&gt;Chandan&lt;/a&gt; briefly
+explained about the Meetup motive and also few other announcements regarding
+Python Month, and &lt;a href=&#34;https://in.pycon.org/2016/&#34;&gt;PyCon India 2016&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Regular Expressions in Python - Rahul Bajaj&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meganeshkadam.github.io/img/julymeet16/rahul.jpg&#34; alt=&#34;Rahul in RE session&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/rahul.bajaj.7568596?fref=ts&#34;&gt;Rahul&lt;/a&gt; started with his talk on using the Regular Expressions in Python. It was introductory, and he have also explained it with the pretty good example
+where he have implemnted the RE in his demo code.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How do I automate my boring stuff using Python? - Suraj Narwade&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meganeshkadam.github.io/img/julymeet16/suraj.jpg&#34; alt=&#34;Suraj in his talk&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We all complain about doing the repeatative tasks in our day to day lives. We
+should definitely try making our lives easier by automating them. In this talk
+&lt;a href=&#34;https://twitter.com/red_suraj&#34;&gt;Suraj&lt;/a&gt; explained how he have automated his task of social media volunteering in
+&lt;a href=&#34;https://in.pycon.org/2016/&#34;&gt;PyCon India 2016&lt;/a&gt;, by writing a simple python script to tweet about the talks at
+regular intervals of around 2 hours. Here is the &lt;a href=&#34;https://gist.github.com/surajnarwade/&#34;&gt;script&lt;/a&gt; by
+&lt;a href=&#34;https://twitter.com/red_suraj&#34;&gt;Suraj&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Lot of project ideas came from the attendees itself. Many of them also shared
+few of their &lt;a href=&#34;https://etherpad.openstack.org/p/boring_scripts&#34;&gt;automation ideas&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Writing unit tests for any Python Script - Sudhir Verma&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meganeshkadam.github.io/img/julymeet16/sudhir.jpg&#34; alt=&#34;Sudhir in unit test talk&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unit testing is considered an essential part of software development. Through
+unit testing, we can evaluate each code component, find out how well it
+performs, and determine how well it reacts to valid or invalid input. A
+regression suite of unit tests is also an excellent way of detecting unexpected
+changes in a code base caused by refactoring or writing new code.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/sudhirvvermaa&#34;&gt;Sudhir&lt;/a&gt; explained how he uses unit
+tests for  his projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Static v/s Dynamically typed languages - Ganesh Kadam&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meganeshkadam.github.io/img/julymeet16/ganesh.jpg&#34; alt=&#34;Me in my lightning talk&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was just a lightning talk about static v/s dynamically typed language.
+&lt;a href=&#34;https://twitter.com/meganeshkadam&#34;&gt;I&lt;/a&gt; just spoke briefly on this topic, with respect to the blog I have read on
+&lt;a href=&#34;https://news.ycombinator.com/item?id=10402307&#34;&gt;Hacker News&lt;/a&gt; that &lt;a href=&#34;https://twitter.com/ciypro&#34;&gt;Chandan&lt;/a&gt; has asked
+us to read. This blog was about the &lt;a href=&#34;http://blog.asciinema.org/&#34;&gt;ASCIINEMA&lt;/a&gt; application that records the sessions
+on your bash shell and uploads it to their &lt;a href=&#34;https://asciinema.org/&#34;&gt;website&lt;/a&gt;, so that it can be used to share.
+&lt;a href=&#34;http://blog.asciinema.org/&#34;&gt;ASCIINEMA&lt;/a&gt; was ported back to Python from Golang. We just discussed how we
+should choose the apporpirate programming languages depending on our
+requirements. It was a good learning experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Python Pune July 2016 Meetup Group Photo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://meganeshkadam.github.io/img/julymeet16/group_photo.jpg&#34; alt=&#34;Python Pune Meetup July 2016&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We ended up with positive feedbacks from attendees and a group photo and also decided about our next Meetups. Thanks
+&lt;a href=&#34;https://www.redhat.com/en&#34;&gt;Red Hat Pune&lt;/a&gt; for helping us organize this meetup.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
